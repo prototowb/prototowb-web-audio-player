@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <header>
-      <h1>📻 _protocode</h1>
+      <h1>📻.protocode_</h1>
     </header>
     <main>
       <div class="protocode"></div>
@@ -209,12 +209,13 @@ main {
 }
 
 .protocode {
-  height: 60vh;
+  height: 78vh;
   background: url('./assets/protocode.jpg') no-repeat center;
 }
 
 .player-container {
   display: flex;
+  margin: 10px 0px;
 }
 
 .controls-container {
@@ -233,6 +234,7 @@ button {
   border: none;
   outline: none;
   cursor: pointer;
+  background: rgb(12, 15, 39);
 }
 button:hover {
   opacity: 0.8;
@@ -244,8 +246,7 @@ button:hover {
   padding: 15px 30px;
   margin-left: 5px;
   color: #fff;
-  background: rgb(9, 12, 27);
-  background-image: url();
+  //background-image: url();
 }
 .next,
 .prev {
@@ -253,7 +254,6 @@ button:hover {
   font-weight: 700;
   padding: 10px 20px;
   color: #fff;
-  background-color: rgb(12, 15, 36);
 }
 
 /* Progress */
